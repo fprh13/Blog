@@ -1,3 +1,6 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
 body {
   font: Arial, Helvetica, sans-serif;
   padding: 0;
@@ -30,7 +33,7 @@ header {
   color: white;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: gray 3px solid;
 }
 
 header a {
@@ -60,7 +63,7 @@ header nav {
 
 header .highlight,
 header .current a {
-  color: #e8491d;
+  color: skyblue;
   font-weight: bold;
 }
 
@@ -111,11 +114,13 @@ header a:hover {
 }
 
 .button_1 {
+  border-radius: 15px;
   height: 38px;
-  background-color: #e8491d;
+  background-color: grey;
   border: 0;
   padding: 0 20px;
   color: white;
+  border-right: 1px solid #777777;
 }
 
 /* Boxes */
@@ -162,7 +167,7 @@ footer {
   padding: 20px;
   margin-top: 20px;
   color: white;
-  background-color: #e8491d;
+  background-color: gray;
   text-align: center;
 }
 
